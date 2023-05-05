@@ -1,0 +1,184 @@
+:root{
+    --bkg-body: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--bkg-body);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+.general-images {
+    width: 200px;
+    height: 200px;
+}
+
+/*Estilos header*/
+
+.links-color{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.links-header {
+    background-color: white;
+    color: rgb(51, 63, 236);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.links-header-hover:hover{
+    color: rgb(51, 63, 236);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.links-header-focus:focus{
+    color: rgb(51, 63, 236);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header-list{
+    list-style: none;
+}
+
+/*Estilos footer*/
+
+.footer-section {
+    background-color: rgb(47, 48, 58);
+    width: 1200px;
+    height: 100px;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.footer-color-links{
+    color: rgb(51, 63, 236);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-hover-links:hover {
+    color: rgb(51, 63, 236);
+    background-color: rgb(47, 48, 58);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-focus-links:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 48, 58);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*ESTILOS DE LA PAGINA INDEX.HTML*/
+/*estilos Main*/
+
+.service-seccion {
+    background-color: rgb(47, 48, 58);
+    width: 900px;
+    height: 200px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 350px;
+}
+
+.service-paragraph {
+    color: white;
+    font-size: 35px;
+}
+
+.btn-services {
+    background-color: rgb(33, 150, 243);
+    color: white;
+    margin-left: 200px;
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+}
+
+.btn-services:hover {
+    color: rgb(33, 150, 243);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.btn-services-active:active {
+    color: rgb(33, 150, 243);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.main-list {
+    list-style: none;
+}
+
+.h3-title {
+    font-weight: bold;
+    font-size: small;
+}
+
+.description-main-paragraph {
+    font-size: small;
+}
+
+.h3-names {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.main-names-paragraph {
+    font-size: medium;
+}
+
+/*ESTILOS DE LA PAGINA PORTAFOLIO.HTML*/
+/*estilos main*/
+
+.btn-main-colors{
+    color: rgb(47, 48, 58);
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 5px;
+    font-weight: bold;
+    height: 25px;
+    width: 110px;
+    border: 0px;
+}
+
+.btn-all:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 63, 236);
+}
+
+.button-list{
+    list-style: none;
+}
+
+.image-list{
+    list-style: none;
+}
+
+.briefcase-title{
+    font-weight: bold;
+    font-size: small;
+    color: black;
+}
+
+.description-paragraph-briefcase{
+    font-size: small;
+    color: gray;
+}
