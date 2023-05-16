@@ -46,6 +46,10 @@ body {
     list-style: none;
 }
 
+.link-active{
+    color: rgb(51, 63, 236);
+}
+
 /*Estilos footer*/
 
 .footer-section {
