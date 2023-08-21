@@ -10,74 +10,44 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
       </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet"/>
   </head>
-  <body>
-    <header>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap"
-        rel="stylesheet"
-      />
+  <body class="main-port">
+    <header class="header-nav">
       <nav>
-        <p>
-          <a
-            href="./index.html"
-            class="links-header links-header-hover links-header-focus"
-            target="_self"
-            rel="noopener noreferrer"
-            >Estudio WEB</a
-          >
-        </p>
+          <a href="./index.html" class="links-header links-header-hover links-header-focus link-studio" target="_self"">WebStudio</a>
         <ul>
           <li class="header-list">
-            <a
-              href="./index.html"
-              class="links-color links-header-hover links-header-focus"
-              target="_self"
-              >Estudio</a
-            >
+            <a href="./index.html" class="links-header2 links-color links-header-hover links-header-focus" target="_self">Estudio</a>
           </li>
           <li class="header-list">
-            <a
-              href="./portafolio.html"
-              class="links-color links-header-hover links-header-focus link-active"
-              target="_self"
-              >Portafolio</a
-            >
+            <a href="./portafolio.html" class="links-header2 links-color links-header-hover links-header-focus link-active" target="_self">Portafolio</a>
           </li>
           <li class="header-list">
-            <a
-              href="#"
-              class="links-color links-header-hover links-header-focus"
-              target="_self"
-              >Contacto</a
-            >
+            <a href="#" class="links-header2 links-color links-header-hover links-header-focus" target="_self">Contactos</a>
           </li>
         </ul>
       </nav>
-      <a
-        href="#"
-        class="links-color links-header-hover links-header-focus
-        target="_self"
-        >qndresj@gmail.com</a
-      >
-      <a
-        href="#"
-        class="links-color links-header-hover links-header-focus"
-        target="_self"
-        >+57 3114885100</a
-      >
+      <nav>
+        <ul>
+          <li class="header-list">
+            <a href="#" class="links-header2 links-color links-header-hover links-header-focus link-active" target="_self">qndresj@gmail.com</a>
+          </li>
+          <li class="header-list">
+            <a href="#" class="links-header2 links-color links-header-hover links-header-focus" target="_self">+57 3114885100</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
+
     <main>
-      <section>
-        <ul>
+      <section class="section-button">
+        <ul class="list-button">
           <li class="button-list">
-            <button
-              type="button"
-              class="btn-main-colors btn-all"
-            >
+            <button type="button" class="btn-main-colors btn-all btn-all-active">
               Todo
             </button>
           </li>
@@ -102,98 +72,77 @@
             </button>
           </li>
         </ul>
-        <h2><b>A que nos dedicamos</b></h2>
-        <ul>
-          <li class="image-list">
-            <img src="images/tecnoduck.jpg" class="general-images" />
-            <h3 class="briefcase-title">tecnoduck</h3>
-            <p class="description-paragraph-briefcase">Sitio-web</p>
-          </li>
-          <li class="image-list">
-            <img src="images/postervs.jpg" class="general-images" />
-            <h3 class="briefcase-title">Poster de Nueva Orleans</h3>
-            <p class="description-paragraph-briefcase">Diseño</p>
-          </li>
-          <li class="image-list">
-            <img src="images/restaurante.jpg" class="general-images" />
-            <h3 class="briefcase-title">Restaurante seafood</h3>
-            <p class="description-paragraph-briefcase">Aplicaciones</p>
-          </li>
-          <li class="image-list">
-            <img src="images/proyectprime.jpg" class="general-images" />
-            <h3 class="briefcase-title">Proyecto prime</h3>
-            <p class="description-paragraph-briefcase">Marketing</p>
-          </li>
-          <li class="image-list">
-            <img src="images/proyectcajas.jpg" class="general-images" />
-            <h3 class="briefcase-title">Proyecto cajas</h3>
-            <p class="description-paragraph-briefcase">Aplicaciones</p>
-          </li>
-          <li class="image-list">
-            <img src="images/inspiracion.jpg" class="general-images" />
-            <h3 class="briefcase-title">La inspiracion no tiene limites</h3>
-            <p class="description-paragraph-briefcase">Sitio-web</p>
-          </li>
-          <li class="image-list">
-            <img src="images/edicion.jpg" class="general-images" />
-            <h3 class="briefcase-title">Edicion limitada</h3>
-            <p class="description-paragraph-briefcase">Diseño</p>
-          </li>
-          <li class="image-list">
-            <img src="images/proyectolab.jpg" class="general-images" />
-            <h3 class="briefcase-title">Proyecto lab</h3>
-            <p class="description-paragraph-briefcase">Marketing</p>
-          </li>
-          <li class="image-list">
-            <img src="images/negocio.jpg" class="general-images" />
-            <h3 class="briefcase-title">Negocio en crecimiento</h3>
-            <p class="description-paragraph-briefcase">Aplicaciones</p>
-          </li>
-        </ul>
+        
+        <section class="body-porta">
+          <ul>
+            <li class="image-list">
+              <img src="images/tecnoduck.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">tecnoduck</h3>
+              <p class="description-paragraph-briefcase">Sitio-web</p>
+            </li>
+            <li class="image-list">
+              <img src="images/postervs.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Poster de Nueva Orleans</h3>
+              <p class="description-paragraph-briefcase">Diseño</p>
+            </li>
+            <li class="image-list">
+              <img src="images/restaurante.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Restaurante seafood</h3>
+              <p class="description-paragraph-briefcase">Aplicaciones</p>
+            </li>
+            <li class="image-list">
+              <img src="images/proyectprime.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Proyecto prime</h3>
+              <p class="description-paragraph-briefcase">Marketing</p>
+            </li>
+            <li class="image-list">
+              <img src="images/proyectcajas.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Proyecto cajas</h3>
+              <p class="description-paragraph-briefcase">Aplicaciones</p>
+            </li>
+            <li class="image-list">
+              <img src="images/inspiracion.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">La inspiracion no tiene limites</h3>
+              <p class="description-paragraph-briefcase">Sitio-web</p>
+            </li>
+            <li class="image-list">
+              <img src="images/edicion.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Edicion limitada</h3>
+              <p class="description-paragraph-briefcase">Diseño</p>
+            </li>
+            <li class="image-list">
+              <img src="images/proyectolab.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Proyecto lab</h3>
+              <p class="description-paragraph-briefcase">Marketing</p>
+            </li>
+            <li class="image-list">
+              <img src="images/negocio.jpg" class="general-images-porta" />
+              <h3 class="briefcase-title">Negocio en crecimiento</h3>
+              <p class="description-paragraph-briefcase">Aplicaciones</p>
+            </li>
+          </ul>
+        </section>
       </section>
     </main>
 
     <footer>
       <section class="footer-section">
-        <a
-          href="#"
-          class="footer-color-links footer-hover-links"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Estudio WEB</a
-        >
+        <a href="#" class="footer-color-links footer-hover-links" target="_blank"">Estudio WEB</a>
         <address>
           <ul>
             <li class="footer-list">
-              <a
-                href="#"
-                class="footer-links footer-hover-links footer-focus-links"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Ciudad de Bogota</a
-              >
+              <a href="#" class="footer-links footer-hover-links footer-focus-links" target="_blank"">Ciudad de Bogota</a>
             </li>
             <li class="footer-list">
-              <a
-                href="#"
-                class="footer-links footer-hover-links footer-focus-links"
-                target="_blank"
-                rel="noopener noreferrer"
-                >qndresj@gmail.com</a
-              >
+              <a href="#" class="footer-links footer-hover-links footer-focus-links" target="_blank"">qndresj@gmail.com</a>
             </li>
             <li class="footer-list">
-              <a
-                href="#"
-                class="footer-links footer-hover-links footer-focus-links"
-                target="_blank"
-                rel="noopener noreferrer"
-                >+57 3114885100</a
-              >
+              <a href="#" class="footer-links footer-hover-links footer-focus-links" target="_blank"">+57 3114885100</a>
             </li>
           </ul>
         </address>
       </section>
     </footer>
+
   </body>
 </html>
