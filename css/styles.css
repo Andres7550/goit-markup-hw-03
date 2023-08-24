@@ -5,7 +5,17 @@
 body {
     background-color: var(--bkg-body);
     font-family: 'Roboto', 'Raleway', sans-serif;
-    border: 1px solid white;
+    border: 1px solid red;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .general-images {
@@ -16,8 +26,51 @@ body {
 
 /*Estilos header*/
 
+.header-list-item{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.header-list-item:hover {
+    color: rgb(51, 63, 236);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header-list-item:focus {
+    color: rgb(51, 63, 236);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.link-studio {
+    color: #2196F3;
+    text-align: right;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-right: 30px;
+}
+
+.header-list {
+    list-style: none;
+}
+
+.link-active {
+    color: rgb(33, 150, 243, 1);
+}
+
 .header-nav{
-    width: 1600px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -34,69 +87,8 @@ body {
     text-align: center;
 }
 
-.header-nav ul li{
+.header-nav ul li {
     margin: 30px;
-}
-
-.header-nav nav{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.link-studio{
-    color: #2196F3;
-    text-align: right;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-    margin-right: 30px;
-}
-
-.links-color{
-    background-color: white;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-.links-header {
-    background-color: white;
-    color: rgb(51, 63, 236);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 26px;
-}
-
-.links-header2 {
-    background-color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.links-header-hover:hover{
-    color: rgb(51, 63, 236);
-    background-color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.links-header-focus:focus{
-    color: rgb(51, 63, 236);
-    background-color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.header-list{
-    list-style: none;
-}
-
-.link-active{
-    color: rgb(51, 63, 236);
 }
 
 /*Estilos footer*/
