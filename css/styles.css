@@ -1,4 +1,4 @@
-:root{
+:root {
     --bkg-body: rgb(255, 255, 255, 1);
     --link-color: rgba(33, 150, 243, 1);
 }
@@ -6,21 +6,21 @@
 body {
     background-color: var(--bkg-body);
     font-family: 'Roboto', 'Raleway', sans-serif;
-    border: 1px solid white;
+    border: 1px solid red;
 }
 
-a{
-    color: rgba(33,33,33,1);
+a {
+    color: rgba(33, 33, 33, 1);
     text-decoration: none;
 }
 
-ul{
+ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@ ul{
 
 /*Estilos header*/
 
-.header-list-item{
+.header-list-item {
     color: #212121;
     font-family: Roboto;
     font-size: 14px;
@@ -47,7 +47,7 @@ ul{
     color: var(--link-color);
     background-color: rgb(255, 255, 255);
     font-weight: bold;
- 
+
 }
 
 .header-list-item:focus {
@@ -72,7 +72,7 @@ ul{
     color: rgb(33, 150, 243, 1);
 }
 
-.header-nav{
+.header-nav {
     height: 80px;
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ ul{
     margin-right: auto;
 }
 
-.header-nav ul{
+.header-nav ul {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -111,13 +111,13 @@ ul{
     letter-spacing: 0.42px;
 }
 
-.footer-links:hover{
+.footer-links:hover {
     color: var(--link-color);
     background-color: rgb(47, 48, 58);
     font-weight: bold;
 }
 
-.link-studio-footer{
+.link-studio-footer {
     color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
@@ -154,7 +154,7 @@ ul{
     font-family: 'Roboto';
 }
 
-.btn-services{
+.btn-services {
     width: 261px;
     height: 50px;
     font-weight: bold;
@@ -178,7 +178,7 @@ ul{
     font-weight: bold;
 }
 
-.main-list{
+.main-list {
     list-style: none;
     border-radius: 0px 0px 4px 4px;
     background: #ffffff;
@@ -188,11 +188,11 @@ ul{
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.section-desc{
-    margin-top: 59px;   
+.section-desc {
+    margin-top: 59px;
 }
 
-.section-desc ul{
+.section-desc ul {
     display: flex;
 }
 
@@ -201,17 +201,17 @@ ul{
     text-align: left;
 }
 
-.section-desc ul li p{
+.section-desc ul li p {
     margin-right: 30px;
     text-align: left;
 }
 
-.section-dedic{
+.section-dedic {
     text-align: center;
     padding-top: 40px;
 }
 
-.dedicamos{
+.dedicamos {
     width: 371.145px;
     height: 46.244px;
     color: #212121;
@@ -263,21 +263,20 @@ ul{
     font-weight: 400;
 }
 
-.equip-images{
+.equip-images {
     width: 270px;
     height: 260px;
 }
 
-.section-equip{
-    padding-top: 94px;
-    margin-bottom: 80px;
-    margin-top: 114px;
-    text-align: center;
-    height: 600px;
+.section-equip {
     background-color: rgb(245, 244, 250, 1);
+    padding-top: 94px;
+    margin-top: 146px;
+    text-align: center;
+    height: 648px;
 }
 
-.section-equip h2 b{
+.section-equip h2 b {
     color: #212121;
     text-align: center;
     font-family: 'Roboto';
@@ -296,19 +295,19 @@ ul{
 /*ESTILOS DE LA PAGINA PORTAFOLIO.HTML*/
 /*estilos main*/
 
-.main-port{
+.main-port {
     width: 1600px;
     height: 1880px;
 }
 
-.section-button .list-button{
+.section-button .list-button {
     margin-top: 99px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-main-portafolio{
+.btn-main-portafolio {
     color: rgb(47, 48, 58);
     background-color: rgb(236, 236, 236);
     text-align: center;
@@ -322,29 +321,29 @@ ul{
     border-radius: 4px;
 }
 
-.btn-main-portafolio:hover{
+.btn-main-portafolio:hover {
     color: var(--link-color);
     background-color: rgb(236, 236, 236);
 }
 
-.btn-all-active{
+.btn-all-active {
     color: rgb(255, 255, 255);
-    background-color: rgb(51,63,236);
+    background-color: rgb(51, 63, 236);
     font-weight: bold;
 }
 
-.briefcase-title{
+.briefcase-title {
     font-weight: bold;
     font-size: small;
     color: black;
 }
 
-.description-paragraph-briefcase{
+.description-paragraph-briefcase {
     font-size: small;
     color: gray;
 }
 
-.body-porta{
+.body-porta {
     padding-top: 50px;
     padding-left: 215px;
     padding-right: 100px;
@@ -361,18 +360,18 @@ ul{
     margin-right: 30px;
 }
 
-.body-porta ul{
+.body-porta ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-.general-images-porta{
+.general-images-porta {
     width: 370px;
     height: 294px;
     border-bottom: 1px;
 }
 
-.body-porta ul li h3{
+.body-porta ul li h3 {
     padding-left: 23px;
     color: #212121;
     font-family: 'Roboto';
